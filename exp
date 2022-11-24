@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p><label> Name: <input type="text" name="name" id=""></label></p>
+        <p><label> Phone number: <input type="number" name="phone number" id=""></label></p>
+        <p><label> Email: <input type="email" name="" id=""></label></p>
+        <p> Theme of appeal: </p>
+        <select name=""  >
+            <option value="Make an appoinment"> Make an appoinment </option>
+            <option value="Making contacts"> Making contacts </option>
+            <option value="Have a breakfast together" > Have a breakfast together </option>
+            <option value="I can't answer"> I can't answer </option>
+        </select>
+            <input type="submit" value="send"> 
+            
+        <p> To send message: </p>
+
+        <form action="https://api.telegram.org/bot5670742109:AAFi1BwYPeHUrcoEh8JCtpC5w46R1U8tiRM/sendMessage" method="get">
+            <input type="number" name="chat_id" id="">
+            <input type="text" name="text" id="">
+            <button> Submit </button>
+
+        </form>
+           
+            
+    </form>
+    
+    
+</body>
+</html>
